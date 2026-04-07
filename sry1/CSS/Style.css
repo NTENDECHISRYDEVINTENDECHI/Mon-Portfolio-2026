@@ -157,7 +157,7 @@ section.competences table{
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
-    background-color: #fff;
+    background-color: #f0f0f0;
     box-shadow: 0.5px 15px rgba(0, 0, 0, 0.00);
     border-radius: 10px;
     overflow: hidden;
@@ -217,3 +217,4 @@ footer a :hover{
     color: var(--orange-vif);
     transform: translate(-3px);
 }
+
