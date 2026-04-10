@@ -1,7 +1,69 @@
-<main>
-                            <h1>contactez-nous</h1>
-                        </main>
-                            <footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sry1/CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon portfolio</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="projet.html">projet</a></li>
+                <li><a href="Passion.html">Passion</a></li>
+                <li><a href="Divertissement.html">Divertissemet</a></li>
+                <li><a href="contact.html" class="active">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-container">
+        <h2 class="titre">Contactez-moi</h2>
+        
+        <div class="contact-content">
+            <!-- Formulaire de contact -->
+            <div class="contact-form">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="nom">Nom complet</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom…" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" id="tel" name="tel" placeholder="Ex : +243…" required>
+                    </div>
+                    <button type="submit" class="btn-submit">Envoyer</button>
+                </form>
+            </div>
+
+            <!-- Informations de contact -->
+            <div class="contact-info">
+                <h3>Mes coordonnées</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Basé à : <strong>Lubumbashi</strong></p>
+                <p><i class="fa-solid fa-phone"></i> Téléphone : <strong>+243 970 057 950</strong></p>
+                
+                <div class="social-direct">
+                    <a href="https://wa.me/243970057950" class="whatsapp" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://t.me/+243970057950" class="telegram" target="_blank">
+                        <i class="fa-brands fa-telegram"></i> Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+              <footer>
                             <p>© 2026 Srydevi. tous droits réservés.</p>
                             <div>
                                 <nav>
@@ -11,4 +73,7 @@
                                 </nav>
                             </div>
                         </footer>
-                       </section> 
+                    </section> 
+    </main>
+ </body>
+</html>

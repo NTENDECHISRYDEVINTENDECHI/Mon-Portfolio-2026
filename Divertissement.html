@@ -1,6 +1,67 @@
-<main>
-                            <h1>contactez-nous</h1>
-                        </main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sry1/CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon portfolio</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="projet.html">projet</a></li>
+                <li><a href="Passion.html">Passion</a></li>
+                <li><a href="Divertissement.html"class="active">Divertissemet</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="divertissement-container">
+    <div class="header-section">
+        <h1>Mes Divertissements</h1>
+    </div>
+
+    <section class="bento-grid">
+        <article class="bento-item anime-card zoomable">
+            <video src="image/ANIME_DREAM.mp4" autoplay loop muted playsinline></video>
+            <div class="bento-overlay">
+                <span class="card-badge">Otaku Culture</span>
+                <h3>Mangas & Animés</h3>
+                <p>Des épopées japonaises qui font rêver.</p>
+            </div>
+        </article>
+
+        <article class="bento-item library-card zoomable">
+            <img src="image/Books.jpg" alt="Lecture">
+            <div class="bento-overlay">
+                <span class="card-badge">Évasion</span>
+                <h3>Bibliothèque Imaginaire</h3>
+                <p>Se perdre dans les pages d'un bon roman.</p>
+            </div>
+        </article>
+
+        <article class="bento-item horror-card zoomable">
+            <img src="image/Horror_Movie.jpg" alt="Horreur">
+            <div class="bento-overlay">
+                <span class="card-badge">Frissons</span>
+                <h3>Horreur & Suspens</h3>
+                <p>Pour l'amour du frisson et des intrigues sombres.</p>
+            </div>
+        </article>
+    </section>
+
+    <div id="zoom-overlay" class="zoom-overlay"></div>
+</main>
+
                             <footer>
                             <p>© 2026 Srydevi. tous droits réservés.</p>
                             <div>
